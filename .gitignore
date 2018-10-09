@@ -1,0 +1,11 @@
+.idea
+__pycache__/
+indoor3d_sem_seg_hdf5_data/
+log_ptn/
+model/__pycache__/
+utils/__pycache__/
+data_preparation/__pycache__/
+data_preparation/indoor3d_sem_seg_hdf5_data/
+data_preparation/s3dis_npy/
+data_preparation/Stanford3dDataset_v1.2_Aligned_Version/
+*.pyc
