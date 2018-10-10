@@ -61,7 +61,7 @@ def main():
     print(test_data.shape, test_label.shape)
 
     time_string = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    log_dir = os.path.join('log_ptn/train', time_string)
+    log_dir = os.path.join('log_ptn/train', test_area + '_' + time_string)
     if not os.path.exists(log_dir): os.makedirs(log_dir)
 
     checkpoint_dir = os.path.join(log_dir, 'checkpoint')
