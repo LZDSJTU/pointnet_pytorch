@@ -83,6 +83,9 @@ python eval_iou_acc.py
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | offical implementation | 41.09 | 48.98 | 88.80 | 97.33 | 69.80 | 0.05 | 3.92 | 46.26 | 10.76 | 52.61 | 58.93 | 40.28 | 5.85 | 26.38 | 33.22 |
 | our pytorch implementation | 41.40 | 49.93 | 89.13 | 98.17 | 68.75 | 0.06 | 4.14 | 44.63 | 10.68 | 59.10 | 52.81 | 42.80 |  3.05 | 31.31 | 33.59 |
+
+![tensorboard area5](https://github.com/LZDSJTU/pointnet_pytorch/blob/master/img/tensorboard.png)
+
 ### Six folder validation
 |   | mIOU | macc | ceiling | floor | wall | beam | column | window | door | chair | table | bookcase | sofa | board | clutter| 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
